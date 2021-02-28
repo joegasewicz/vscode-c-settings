@@ -8,7 +8,7 @@ C Settings for Visual Studio Code
 
 2. Clone the repo.
 
-3. Run `rm -rf assets gitignore`
+3. Run `rm -rf assets .gitignore`
 
 4. Rename `hello_world.c` as required.
 

@@ -23,4 +23,3 @@ Creates 3 run configs - Build & Debug, Build & Run & Run.
 Run Build & Debug to use VSCode's break points etc.
 
 ![vscode-c-settings](assets/debug.png?raw=true "Title")
-s

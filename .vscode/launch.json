@@ -6,10 +6,10 @@
     "configurations": [
         
         {
-            "name": "Debug",
+            "name": "Build & Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/hello_world",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -26,10 +26,10 @@
             "preLaunchTask": "C/C++: gcc build active file"
         },
         {
-            "name": "Run",
+            "name": "Build & Run",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/hello_world",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -44,6 +44,26 @@
                 }
             ],
             "preLaunchTask": "C/C++: gcc build active file",
+            "postDebugTask": "Run Task",
+        },
+        {
+            "name": "Run",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
             "postDebugTask": "Run Task",
         }
     ]

@@ -7,8 +7,8 @@
             "args": [
                 "-g",
                 "-o",
-                "hello_world",
-                "main.c"
+                "${fileBasenameNoExtension}",
+                "${file}"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -25,7 +25,7 @@
         {
             "label": "Run Task",
             "type": "shell",
-            "command": "./hello_world",
+            "command": "./${fileBasenameNoExtension}",
             "presentation": {
               "reveal": "always",
               "panel": "new"

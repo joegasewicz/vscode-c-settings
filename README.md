@@ -3,10 +3,12 @@ C Settings for Visual Studio Code
 
 ### Commands
 Creates 3 run configs - Build & Debug, Build & Run & Run.
+
 ![vscode-c-settings](assets/cmds.png?raw=true "Title")
 
 ### Debugger
 Run Build & Debug to use VSCode's break points etc.
+
 ![vscode-c-settings](assets/debug.png?raw=true "Title")
 
 # Easy Setup

@@ -43,7 +43,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "postDebugTask": "Run Task",
+            "postDebugTask": ["C/C++: gcc build active file", "Run Task"],
         }
     ]
 }

@@ -3,7 +3,7 @@
 
 C Settings for Visual Studio Code
 
-# Easy Setup
+# Setup
 1. Install the [C/C++](https://code.visualstudio.com/docs/languages/cpp) vscode extension.
 
 2. Clone the repo.

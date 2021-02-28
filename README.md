@@ -1,4 +1,6 @@
 # Visual Studio Code starter template for C Programming
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/joegasewicz/vscode-c-settings?color=green)
+
 C Settings for Visual Studio Code
 
 # Easy Setup
